@@ -48,6 +48,9 @@ requires "https://github.com/xTrayambak/ferushtml"
 # cligen -- CLI parser
 requires "cligen"
 
+# curly -- Easy multi-threaded libcurl wrapper
+requires "curly"
+
 # Linux-specific modules
 when defined(linux):
   requires "https://github.com/xTrayambak/nim-firejail"
